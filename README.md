@@ -9,7 +9,9 @@
 
 Use tools like `pyenv` and `nvm` to easily manage Python and NodeJS runtimes.
 
-This project will use Django and Lit elements to generate a simple hello world page that changes message on random reloads and a counter button.
+This project will use Django and Lit elements to generate a simple hello world page that changes message on random reloads and a counter button. The random message is fetched from Django `helloworld` app as a JSON response and the button logic is present in `js/components/element.js`
+
+https://github.com/user-attachments/assets/d174b58c-2d40-4c8e-b11c-d780b7b1130b
 
 Run these commands in exact sequence for installation of libraries
 
@@ -23,6 +25,7 @@ Run these commands in exact sequence for installation of libraries
 Run the hello world Django+Lit starter project using `python manage.py runserver`.
 
 The terminal logs still look weird but that is not something to worry about (atleast right now).
+
 
 Check out `manage.py` and `build-js` to see how I built the Lit component using esbuild.
 
